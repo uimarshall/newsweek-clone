@@ -1,3 +1,39 @@
 .card {
 	width: 100%;
 }
+.card-body {
+	position: relative;
+}
+.btn-primary {
+	position: absolute;
+	left: 0;
+	top: -35px;
+	color: red;
+	background-color: rgba(212, 212, 212, 0.7);
+	font-weight: 700;
+}
+.btn {
+	border: none;
+	border-radius: 0;
+}
+.author-profile img {
+	width: 67px;
+	height: 67px;
+}
+.featured-border-line {
+	border-bottom: 4px solid red;
+}
+.double-border-line {
+	border-bottom: 1px solid #ddd;
+	margin-bottom: 1px;
+}
+.versus {
+	width: 32px;
+	height: 32px;
+	background-color: #000;
+	color: #d6d6d6;
+	border-radius: 50%;
+	font: bold 14px/32px "Roboto Condensed", sans-serif;
+	text-align: center;
+	margin: -16px auto;
+}
