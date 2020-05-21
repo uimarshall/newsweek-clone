@@ -2,23 +2,61 @@
 body {
 	background: #f4f5f6;
 }
+main {
+	background-color: white;
+}
 a {
 	text-decoration: none;
 }
+.article-title {
+	font: bold 16px/16px "Roboto Condensed", sans-serif;
+	text-transform: uppercase;
+	padding-bottom: 11px;
+	color: rgba(3, 3, 3, 0.4);
+}
+
+.card-title a {
+	font-family: "Roboto Condensed", sans-serif;
+	font-weight: 700;
+	font-size: 20px;
+	margin-bottom: 10px;
+	padding-left: 0;
+	margin-left: 0;
+	color: black !important;
+	text-decoration: none;
+}
+.card-title a:hover {
+	text-decoration: underline;
+	text-decoration-color: #f72210;
+}
 .header-wrapper {
 	background-color: #f72210;
+	position: relative;
 }
 .header-wrapper h1 {
 	padding: 15px;
+	position: absolute;
+	bottom: -10px;
+	left: 450px;
 }
-.header-wrapper a {
+.header-text {
 	color: white;
 	width: 396px;
 	height: 60px;
 	margin: 10px auto 0;
 	font-weight: 900;
 	text-decoration: none;
+	font-family: "Bree Serif", serif;
 }
+.login {
+	font: bold 14px/14px "Roboto Condensed", sans-serif;
+	text-transform: uppercase;
+
+	cursor: pointer;
+	text-decoration: none;
+	color: white;
+}
+
 .card {
 	width: 100%;
 }
@@ -36,6 +74,10 @@ a {
 .btn {
 	border: none;
 	border-radius: 0;
+}
+.btn-light {
+	color: red;
+	height: 30px;
 }
 .author-profile img {
 	width: 67px;
