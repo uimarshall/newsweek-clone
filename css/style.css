@@ -1,3 +1,24 @@
+/* Globals */
+body {
+	background: #f4f5f6;
+}
+a {
+	text-decoration: none;
+}
+.header-wrapper {
+	background-color: #f72210;
+}
+.header-wrapper h1 {
+	padding: 15px;
+}
+.header-wrapper a {
+	color: white;
+	width: 396px;
+	height: 60px;
+	margin: 10px auto 0;
+	font-weight: 900;
+	text-decoration: none;
+}
 .card {
 	width: 100%;
 }

@@ -9,25 +9,33 @@
 			integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
 			crossorigin="anonymous"
 		/>
+		<link rel="stylesheet" href="css/reset.css" />
 		<link rel="stylesheet" href="css/style.css" />
 		<title>Newsweek Clone</title>
 	</head>
 	<body>
 		<header>
-			<h1><a href="#">newsweek</a></h1>
-			<div><h3>Sun, May 10, 2020</h3></div>
-			<div>
-				<h2><a href="#">login</a></h2>
-				<button type="button">
-					subscribe <i class="fa fa-angle-right" aria-hidden="true"></i>
-				</button>
+			<div class="header-wrapper">
+				<h1
+					class="text-center text-white d-flex justify-content-center align-content-center display-1 text-capitalize"
+				>
+					<a href="#">newsweek</a>
+				</h1>
+				<div><h3>Sun, May 10, 2020</h3></div>
+				<div>
+					<h2><a href="#">login</a></h2>
+					<button type="button">
+						subscribe <i class="fa fa-angle-right" aria-hidden="true"></i>
+					</button>
+				</div>
+				<div>
+					<img src="" alt="" />
+					<h4>
+						27 lagos, NG <i class="fa fa-angle-right" aria-hidden="true"></i>
+					</h4>
+				</div>
 			</div>
-			<div>
-				<img src="" alt="" />
-				<h4>
-					27 lagos, NG <i class="fa fa-angle-right" aria-hidden="true"></i>
-				</h4>
-			</div>
+
 			<nav class="navbar navbar-expand-lg navbar-light bg-light">
 				<button
 					class="navbar-toggler"
@@ -77,7 +85,7 @@
 				</div>
 			</nav>
 		</header>
-		<main>
+		<main class="container-fluid mx-auto">
 			<div class="row">
 				<div class="col-md-3">
 					<h2>featured</h2>
