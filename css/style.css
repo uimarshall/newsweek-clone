@@ -2,8 +2,9 @@
 body {
 	background: #f4f5f6;
 }
-main {
+.container-fluid {
 	background-color: white;
+	width: 98%;
 }
 a {
 	text-decoration: none;
@@ -56,13 +57,24 @@ a {
 	text-decoration: none;
 	color: white;
 }
-
 .card {
 	width: 100%;
 }
+.col-md-3 .card-body,
+.col-md-5 .card-body {
+	padding-left: 0;
+	border: none;
+}
+.col-md-3 .card,
+.col-md-5 .card {
+	padding-left: 0;
+	border: none;
+}
+
 .card-body {
 	position: relative;
 }
+
 .btn-primary {
 	position: absolute;
 	left: 0;
@@ -71,6 +83,22 @@ a {
 	background-color: rgba(212, 212, 212, 0.7);
 	font-weight: 700;
 }
+.btn-text-blue {
+	padding-left: 15px;
+	padding-right: 15px;
+	background-color: rgba(212, 212, 212, 0.7);
+	position: absolute;
+	top: -33px;
+	left: 0;
+	z-index: 1;
+	color: #3581f4;
+	display: block;
+	font: bold 17px/16px "Roboto Condensed", sans-serif;
+	text-transform: uppercase;
+	padding-top: 8px;
+	padding-bottom: 9px;
+}
+
 .btn {
 	border: none;
 	border-radius: 0;
@@ -79,12 +107,43 @@ a {
 	color: red;
 	height: 30px;
 }
+.btn-red {
+	background-color: #f61602;
+	text-transform: uppercase;
+	color: white;
+}
+
+/* Third Colunm */
 .author-profile img {
 	width: 67px;
 	height: 67px;
 }
-.featured-border-line {
+.debate-title a {
+	text-decoration: none;
+	font: bold 17px/21px "Roboto Condensed", sans-serif;
+	cursor: pointer;
+	color: black;
+}
+.debate-title a:hover {
+	color: #f72210;
+}
+.debater {
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 21px;
+	text-transform: uppercase;
+	color: black;
+}
+.debater span {
+	font-weight: normal;
+	color: #555;
+	text-transform: uppercase;
+}
+.featured-border-line-red {
 	border-bottom: 4px solid red;
+}
+.featured-border-line-blue {
+	border-bottom: 4px solid #1c87fb;
 }
 .double-border-line {
 	border-bottom: 1px solid #ddd;
@@ -99,4 +158,18 @@ a {
 	font: bold 14px/32px "Roboto Condensed", sans-serif;
 	text-align: center;
 	margin: -16px auto;
+}
+.newsletter-form {
+	background-color: #f4f5f6;
+}
+
+.newsletter-form img {
+	width: 29px;
+	height: 28px;
+	/* margin-right: 10px; */
+}
+.newsletter-title {
+	font: bold 19px/19px "Roboto Condensed", sans-serif;
+	margin-bottom: 15px;
+	text-transform: uppercase;
 }
