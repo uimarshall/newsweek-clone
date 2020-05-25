@@ -13,7 +13,7 @@ a {
 .article-title a {
 	font: bold 16px/16px "Roboto Condensed", sans-serif;
 	text-transform: uppercase;
-	padding-bottom: 11px;
+	padding-bottom: 8px;
 	color: rgba(3, 3, 3, 0.4);
 	text-decoration: none;
 }
@@ -196,4 +196,9 @@ a {
 .pandemic-heroes .card-body,
 .culture-travel .card-body {
 	padding: 0;
+}
+/* MORE STORIES */
+.more-stories-body a {
+	font-size: 17px;
+	line-height: 21px;
 }
