@@ -9,11 +9,13 @@ body {
 a {
 	text-decoration: none;
 }
-.article-title {
+.article-title,
+.article-title a {
 	font: bold 16px/16px "Roboto Condensed", sans-serif;
 	text-transform: uppercase;
 	padding-bottom: 11px;
 	color: rgba(3, 3, 3, 0.4);
+	text-decoration: none;
 }
 
 .card-title a {
@@ -172,4 +174,26 @@ a {
 	font: bold 19px/19px "Roboto Condensed", sans-serif;
 	margin-bottom: 15px;
 	text-transform: uppercase;
+}
+
+/* OPINION SECTION */
+.pandemic-heroes-title a {
+	font: bold 16px/19px "Roboto Condensed", sans-serif;
+	color: rgba(3, 3, 3, 0.5) !important;
+	text-decoration: none;
+}
+.pandemic-hero-btn {
+	position: absolute;
+	left: 0;
+	top: -1.9rem;
+	color: black;
+	background-color: #c2d4d7;
+	padding: 0.0425rem 0.375rem;
+	font-weight: 700;
+	font-size: 14px;
+	text-align: left;
+}
+.pandemic-heroes .card-body,
+.culture-travel .card-body {
+	padding: 0;
 }
