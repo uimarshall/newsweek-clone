@@ -165,7 +165,8 @@ a {
 	background-color: #f4f5f6;
 }
 
-.newsletter-form img {
+.newsletter-form img,
+.in-the-magazine-header img {
 	width: 29px;
 	height: 28px;
 	/* margin-right: 10px; */
@@ -201,4 +202,42 @@ a {
 .more-stories-body a {
 	font-size: 17px;
 	line-height: 21px;
+}
+
+/* IN THE MAGAZINE */
+.in-the-magazine-cat {
+	margin-top: 92px;
+}
+.news-cat {
+	background-color: #f72210;
+	font-size: 15px;
+}
+
+.magazine-category a {
+	font: bold 16px/26px "Roboto Condensed", sans-serif;
+	color: #f72210 !important;
+	text-decoration: none !important;
+}
+.in-the-magazine .btn-primary-1 {
+	position: absolute;
+	left: 0;
+	top: -40px;
+	color: red;
+	background-color: rgba(212, 212, 212, 0.7);
+	font-weight: 700;
+}
+
+.mag-col {
+	position: relative;
+}
+.btn-magazine-cat {
+	background-color: #f4f5f6;
+	position: absolute;
+	bottom: 20px;
+	left: 0;
+	z-index: 1;
+	font: bold 17px/16px "Roboto Condensed", sans-serif;
+}
+.btn-magazine-cat:hover {
+	color: #dbdcdd !important;
 }
