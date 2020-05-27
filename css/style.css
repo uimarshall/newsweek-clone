@@ -62,17 +62,13 @@ a {
 .card {
 	width: 100%;
 }
-.col-sm-12 .card-body,
-.col-md-6 .card-body,
-.col-lg-3 .card-body,
-.col-lg-5 .card-body {
+.col-one .card-body:not(.sponsored-insight),
+.col-two .card-body:not(.sponsored-insight) {
 	padding-left: 0;
 	border: none;
 }
-.col-sm-12 .card,
-.col-md-6 .card,
-.col-lg-3 .card,
-.col-lg-5 .card {
+.col-one .card:not(.sponsored-insight),
+.col-two .card:not(.sponsored-insight) {
 	padding-left: 0;
 	border: none;
 }
@@ -215,7 +211,7 @@ a {
 
 /* IN THE MAGAZINE */
 .in-the-magazine-cat {
-	margin-top: 92px;
+	margin-top: 50px;
 }
 .news-cat {
 	background-color: #f72210;
@@ -230,7 +226,7 @@ a {
 .in-the-magazine .btn-primary-1 {
 	position: absolute;
 	left: 0;
-	top: -40px;
+	top: -36px;
 	color: red;
 	background-color: rgba(212, 212, 212, 0.7);
 	font-weight: 700;
@@ -242,7 +238,8 @@ a {
 .btn-magazine-cat {
 	background-color: #f4f5f6;
 	position: absolute;
-	bottom: 20px;
+	bottom: 0;
+	padding: 0.8rem;
 	left: 0;
 	z-index: 1;
 	font: bold 17px/16px "Roboto Condensed", sans-serif;
