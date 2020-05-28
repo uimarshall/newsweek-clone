@@ -260,7 +260,9 @@ a {
 }
 
 .in-the-magazine .card,
-.in-the-magazine .card-body {
+.in-the-magazine .card-body,
+.editors-pick .card,
+.editors-pick .card-body {
 	padding: 0;
 	border: none;
 }
