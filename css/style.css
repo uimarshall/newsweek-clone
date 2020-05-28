@@ -128,13 +128,15 @@ a {
 	width: 67px;
 	height: 67px;
 }
-.debate-title a {
+.debate-title a,
+.media-body a {
 	text-decoration: none;
 	font: bold 17px/21px "Roboto Condensed", sans-serif;
 	cursor: pointer;
 	color: black;
 }
-.debate-title a:hover {
+.debate-title a:hover,
+.media-body a:hover {
 	color: #f72210;
 }
 .debater {
@@ -262,9 +264,28 @@ a {
 .in-the-magazine .card,
 .in-the-magazine .card-body,
 .editors-pick .card,
-.editors-pick .card-body {
+.editors-pick .card-body,
+.varieties .card,
+.varieties .card-body {
 	padding: 0;
 	border: none;
+}
+
+/* VARITIES SECTION */
+.varieties-header a {
+	color: #f72210;
+	font-size: 22px;
+	line-height: 22px;
+	text-decoration: none;
+}
+.media-img-1 img {
+	width: 95px;
+	height: 63px;
+}
+.media-img-2 img,
+.media-img-3 img {
+	width: 95px;
+	height: 95px;
 }
 
 /* MEDIA QUERY */
