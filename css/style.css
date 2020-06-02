@@ -287,6 +287,17 @@ a {
 	width: 95px;
 	height: 95px;
 }
+.subscribe {
+	font-size: 0.1rem;
+	text-transform: uppercase;
+}
+.img-overlap {
+	margin-left: -6rem;
+	margin-top: 0.8rem;
+}
+.bg-dark-gray {
+	background: #f4f5f6;
+}
 
 /* MEDIA QUERY */
 @media (min-width: 425px) {
@@ -312,10 +323,21 @@ a {
 	.in-the-magazine-cat:not(.mag-other-rows) {
 		margin-top: 0;
 	}
+	.newsletter-img {
+		width: 48%;
+		max-width: 191px;
+	}
 }
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
+	body {
+		background: #f4f5f6;
+	}
+	.container-fluid {
+		background-color: white;
+		width: 98%;
+	}
 	.in-the-magazine-cat:not(.mag-other-rows) {
 		margin-top: 0.7rem;
 	}
@@ -323,6 +345,13 @@ a {
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
+	body {
+		background: #f4f5f6;
+	}
+	.container-fluid {
+		background-color: white;
+		width: 98%;
+	}
 	.in-the-magazine-cat:not(.mag-other-rows) {
 		margin-top: 3rem;
 	}
