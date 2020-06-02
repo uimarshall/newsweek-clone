@@ -29,21 +29,21 @@
 		<title>Newsweek Clone</title>
 	</head>
 	<body>
-		<header class="d-xs-none d-sm-none">
+		<header class="d-xs-none d-sm-none d-lg-block">
 			<div class="header-wrapper">
 				<h1 class="display-3 text-capitalize">
 					<a href="#" class="header-text">newsweek</a>
 				</h1>
 				<div><h3>Sun, May 10, 2020</h3></div>
-				<div class="d-flex float-right">
+				<div class="d-flex">
 					<h2 class="mr-2"><a href="#" class="login">login</a></h2>
 					<a class="btn btn-light">
 						subscribe <i class="fa fa-angle-right" aria-hidden="true"></i>
 					</a>
 				</div>
-				<div>
+				<div class="d-flex">
 					<img src="" alt="" />
-					<h4>
+					<h4 class="ml-2">
 						27 lagos, NG <i class="fa fa-angle-right" aria-hidden="true"></i>
 					</h4>
 				</div>
@@ -2277,40 +2277,106 @@
 		</main>
 		<footer class="mt-1">
 			<div class="footer-wrapper container-fluid">
-				<div class="top-footer-right">
-					<h2>newsweek</h2>
-					<h3>&copy; newsweek</h3>
+				<div
+					class="footer-content d-flex justify-content-between align-items-end"
+				>
+					<div class="top-footer-right">
+						<span class="display-4 text-capitalize"
+							><a href="#" class="footer-header-text mr-2">newsweek</a></span
+						>
+						<small class="text-uppercase text-muted"
+							>&copy; 2020 newsweek</small
+						>
+					</div>
+					<div class="footer-socials text-muted display-5">
+						<i class="fa fa-facebook-square fa-fw" aria-hidden="true"></i>
+						<i class="fa fa-twitter fa-fw" aria-hidden="true"></i>
+						<i class="fa fa-instagram fa-fw" aria-hidden="true"></i>
+						<i class="fa fa-tumblr fa-fw" aria-hidden="true"></i>
+						<i class="fa fa-linkedin fa-fw" aria-hidden="true"></i>
+					</div>
 				</div>
-				<div class="footer-socials">
-					<i class="fa fa-facebook-square" aria-hidden="true"></i>
-					<i class="fa fa-twitter" aria-hidden="true"></i>
-					<i class="fa fa-instagram" aria-hidden="true"></i>
-					<i class="fa fa-tumblr" aria-hidden="true"></i>
-					<i class="fa fa-linkedin" aria-hidden="true"></i>
-				</div>
-				<hr />
-				<nav class="navbar navbar-expand-lg navbar-light">
-					<div class="">
-						<ul class="navbar-nav mr-auto">
-							<li class="nav-item active">
-								<a class="nav-link" href="#"
-									>Home <span class="sr-only">(current)</span></a
-								>
-							</li>
-							<li class="nav-item">
-								<a class="nav-link" href="#">Link</a>
-							</li>
 
-							<li class="nav-item">
-								<a
-									class="nav-link disabled"
-									href="#"
-									tabindex="-1"
-									aria-disabled="true"
-									>Disabled</a
-								>
-							</li>
-						</ul>
+				<hr class="mb-0" />
+				<nav class="navbar navbar-expand-lg navbar-light pl-0">
+					<div
+						class="footer-nav-top-links d-flex justify-content-start align-items-start"
+					>
+						<h6 class="text-dark text-capitalize d-block mr-3">editions:</h6>
+						<div>
+							<ul class="navbar-nav mr-auto">
+								<li class="nav-item">
+									<a class="nav-link pt-0 border-right" href="#"
+										>U.S. Edition</a
+									>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link pt-0 border-right" href="#">日本</a>
+								</li>
+
+								<li class="nav-item">
+									<a class="nav-link pt-0 border-right">Pakistan</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link pt-0 border-right">Polska</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link pt-0 border-right">România</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</nav>
+				<nav class="navbar navbar-expand-lg navbar-light pl-0">
+					<div
+						class="footer-nav-top-links d-flex justify-content-start align-items-start flex-row"
+					>
+						<div>
+							<ul class="navbar-nav mr-auto">
+								<li class="nav-item">
+									<a class="nav-link pt-0 border-right pl-0" href="#"
+										>About Us</a
+									>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link pt-0 border-right" href="#">Corrections</a>
+								</li>
+
+								<li class="nav-item">
+									<a class="nav-link pt-0 border-right">Contact Us</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link pt-0 border-right">Editorial Guidelines</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link pt-0 border-right">Advertise</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link pt-0 border-right">Copyright</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link pt-0 border-right">Terms & Conditions</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link pt-0 border-right">Privacy Policy</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link pt-0 border-right">Cookie Policy</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link pt-0 border-right">Terms of Sale</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link pt-0 border-right">Archive</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link pt-0 border-right">Announcements</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link pt-0">Consent preferences</a>
+								</li>
+							</ul>
+						</div>
 					</div>
 				</nav>
 			</div>

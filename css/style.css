@@ -299,6 +299,27 @@ a {
 	background: #f4f5f6;
 }
 
+/* FOOTER */
+.footer-header-text {
+	color: #f72210;
+	font-weight: 900;
+	text-decoration: none;
+	font-family: "Bree Serif", serif;
+}
+.footer-header-text:hover {
+	text-decoration: none;
+	color: #f72210;
+}
+.display-5 {
+	font-size: 1.5rem;
+}
+.border-right {
+	height: 22px;
+}
+.footer-nav-top-links .nav-link {
+	font-size: 0.8rem;
+}
+
 /* MEDIA QUERY */
 @media (min-width: 425px) {
 	.container-fluid {
