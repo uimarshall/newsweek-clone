@@ -9,6 +9,53 @@ body {
 a {
 	text-decoration: none;
 }
+
+/* HEADER */
+
+.header-wrapper {
+	background-color: #f72210 !important;
+}
+.header-wrapper h1 {
+	/* padding: 15px; */
+	position: absolute;
+	top: 2px;
+	left: 450px;
+}
+.header-text {
+	color: white;
+	width: 396px;
+	height: 60px;
+	margin: 10px auto 0;
+	font-weight: 900;
+	text-decoration: none;
+	font-family: "Bree Serif", serif;
+}
+.date,
+.weather {
+	font: 16px/34px "Roboto Condensed", sans-serif;
+	color: white;
+}
+.login {
+	font: bold 14px/14px "Roboto Condensed", sans-serif;
+	text-transform: uppercase;
+
+	cursor: pointer;
+	text-decoration: none;
+	color: white;
+}
+.btn-yellow {
+	background-color: #ffe400;
+	text-transform: uppercase;
+	color: #333;
+}
+.navbar {
+	background-color: white;
+	border-bottom-color: #f4f5f6;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	border-bottom-width: 2px;
+	border-bottom-style: solid;
+}
 .article-title,
 .article-title a {
 	font: bold 16px/16px "Roboto Condensed", sans-serif;
@@ -32,33 +79,7 @@ a {
 	text-decoration: underline;
 	text-decoration-color: #f72210;
 }
-.header-wrapper {
-	background-color: #f72210;
-	position: relative;
-}
-.header-wrapper h1 {
-	padding: 15px;
-	position: absolute;
-	bottom: -10px;
-	left: 450px;
-}
-.header-text {
-	color: white;
-	width: 396px;
-	height: 60px;
-	margin: 10px auto 0;
-	font-weight: 900;
-	text-decoration: none;
-	font-family: "Bree Serif", serif;
-}
-.login {
-	font: bold 14px/14px "Roboto Condensed", sans-serif;
-	text-transform: uppercase;
 
-	cursor: pointer;
-	text-decoration: none;
-	color: white;
-}
 .card {
 	width: 100%;
 }
@@ -318,6 +339,10 @@ a {
 }
 .footer-nav-top-links .nav-link {
 	font-size: 0.8rem;
+}
+.display-6 {
+	font-size: 18px;
+	line-height: 27px;
 }
 
 /* MEDIA QUERY */

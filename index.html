@@ -29,75 +29,93 @@
 		<title>Newsweek Clone</title>
 	</head>
 	<body>
-		<header class="d-xs-none d-sm-none d-lg-block">
-			<div class="header-wrapper">
-				<h1 class="display-3 text-capitalize">
-					<a href="#" class="header-text">newsweek</a>
-				</h1>
-				<div><h3>Sun, May 10, 2020</h3></div>
-				<div class="d-flex">
-					<h2 class="mr-2"><a href="#" class="login">login</a></h2>
-					<a class="btn btn-light">
+		<header
+			class="d-xs-none d-sm-none d-lg-block container-fluid header-wrapper"
+		>
+			<div class="d-flex">
+				<img src="" alt="" />
+				<h4 class="ml-2 weather">
+					27 lagos, NG <i class="fa fa-angle-right" aria-hidden="true"></i>
+				</h4>
+			</div>
+			<h1 class="display-3 text-capitalize">
+				<a href="#" class="header-text">newsweek</a>
+			</h1>
+
+			<div class="d-flex justify-content-between">
+				<div><h3 class="date">Sun, May 10, 2020</h3></div>
+				<div class="d-flex justify-content-end align-items-end">
+					<h2 class="mr-2">
+						<a href="#" class="login align-self-baseline mr-2 my-auto display-6"
+							>login</a
+						>
+					</h2>
+					<a
+						class="btn btn-light d-block btn-yellow my-2 py-1 px-2 font-weight-bold rounded"
+					>
 						subscribe <i class="fa fa-angle-right" aria-hidden="true"></i>
 					</a>
 				</div>
-				<div class="d-flex">
-					<img src="" alt="" />
-					<h4 class="ml-2">
-						27 lagos, NG <i class="fa fa-angle-right" aria-hidden="true"></i>
-					</h4>
+			</div>
+		</header>
+		<nav
+			class="navbar navbar-expand-lg navbar-light pl-0 container-fluid px-3 text-black"
+		>
+			<div class="d-flex justify-content-around align-items-start flex-row">
+				<div>
+					<ul class="navbar-nav mr-auto">
+						<li class="nav-item">
+							<a class="nav-link pt-0 border-right pl-0" href="#">U.S</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link pt-0 border-right" href="#">World</a>
+						</li>
+
+						<li class="nav-item">
+							<a class="nav-link pt-0 border-right">Business</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link pt-0 border-right">Tech &amp; Science</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link pt-0 border-right">Advertise</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link pt-0 border-right">Copyright</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link pt-0 border-right">Terms & Conditions</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link pt-0 border-right">Culture</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link pt-0 border-right">Newsgeek</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link pt-0 border-right">Sports</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link pt-0 border-right">Health</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link pt-0 border-right">The Debate</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link pt-0 border-right">Vantage</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link pt-0">Weather</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link pt-0 mr-2"
+								>Search <i class="fa fa-search" aria-hidden="true"></i
+							></a>
+						</li>
+					</ul>
 				</div>
 			</div>
-
-			<nav class="navbar navbar-expand-lg navbar-light bg-light">
-				<button
-					class="navbar-toggler"
-					type="button"
-					data-toggle="collapse"
-					data-target="#navbarSupportedContent"
-					aria-controls="navbarSupportedContent"
-					aria-expanded="false"
-					aria-label="Toggle navigation"
-				>
-					<span class="navbar-toggler-icon"></span>
-				</button>
-
-				<div class="collapse navbar-collapse" id="navbarSupportedContent">
-					<ul class="navbar-nav mr-auto">
-						<li class="nav-item active">
-							<a class="nav-link" href="#">U.S</a> |
-						</li>
-						<li class="nav-item"><a class="nav-link" href="#">World</a> |</li>
-						<li class="nav-item">
-							<a class="nav-link" href="#">Business</a> |
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="#">Tech &amp; Science</a> |
-						</li>
-						<li class="nav-item"><a class="nav-link" href="#">Culture</a> |</li>
-						<li class="nav-item">
-							<a class="nav-link" href="#">Newsgeek</a> |
-						</li>
-						<li class="nav-item"><a class="nav-link" href="#">Sports</a> |</li>
-						<li class="nav-item"><a class="nav-link" href="#">Health</a> |</li>
-						<li class="nav-item">
-							<a class="nav-link" href="#">The Debate</a> |
-						</li>
-						<li class="nav-item"><a class="nav-link" href="#">Vantage</a> |</li>
-						<li class="nav-item"><a class="nav-link" href="#">Weather</a> |</li>
-					</ul>
-					<form class="form-inline my-2 my-lg-0">
-						<input
-							class="form-control mr-sm-2"
-							type="search"
-							placeholder="Search"
-							aria-label="Search"
-						/>
-						<i class="fa fa-search" aria-hidden="true"></i>
-					</form>
-				</div>
-			</nav>
-		</header>
+		</nav>
 		<main class="container-fluid mx-auto">
 			<div class="row">
 				<div class="col-sm-12 col-md-6 col-lg-3 col-one">
