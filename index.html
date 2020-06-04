@@ -30,16 +30,47 @@
 	</head>
 	<body>
 		<header
+			class="d-md-block d-lg-none container-fluid header-wrapper-small mb-3"
+		>
+			<div class="d-flex justify-content-between align-items-center">
+				<h1 class="display-5 text-capitalize">
+					<a href="#" class="header-text-small">newsweek</a>
+				</h1>
+				<div class="d-flex justify-content-around align-items-center">
+					<h2 class="mr-2">
+						<a href="#" class="login align-self-baseline mr-2 my-auto display-6"
+							>login</a
+						>
+					</h2>
+					<a
+						class="btn btn-light d-block btn-yellow my-2 py-1 px-2 font-weight-bold rounded"
+					>
+						subscribe <i class="fa fa-angle-right" aria-hidden="true"></i>
+					</a>
+					<a
+						class="d-block text-white ml-2 py-1 px-2 font-weight-bold display-5"
+					>
+						<i class="fa fa-bars" aria-hidden="true"></i>
+					</a>
+				</div>
+			</div>
+		</header>
+		<header
 			class="d-xs-none d-sm-none d-lg-block container-fluid header-wrapper"
 		>
 			<div class="d-flex">
-				<img src="" alt="" />
-				<h4 class="ml-2 weather">
-					27 lagos, NG <i class="fa fa-angle-right" aria-hidden="true"></i>
+				<img
+					src="https://g.newsweek.com/img/weather/20.png"
+					alt="weather"
+					class="weather-img my-auto"
+				/>
+				<h4 class="ml-2 my-auto weather">
+					27<sup>&deg; </sup> lagos, NG
+					<i class="fa fa-angle-right" aria-hidden="true"></i>
 				</h4>
 			</div>
-			<h1 class="display-3 text-capitalize">
-				<a href="#" class="header-text">newsweek</a>
+			<h1 class="display-2 text-capitalize">
+				<a href="#" class="header-text text-center">newsweek</a>
 			</h1>
 
 			<div class="d-flex justify-content-between">
@@ -59,58 +90,76 @@
 			</div>
 		</header>
 		<nav
-			class="navbar navbar-expand-lg navbar-light pl-0 container-fluid px-3 text-black"
+			class="navbar navbar-expand-lg navbar-light py-3 container-fluid text-black main-nav d-xs-none d-sm-none d-md-none d-lg-block"
 		>
 			<div class="d-flex justify-content-around align-items-start flex-row">
 				<div>
 					<ul class="navbar-nav mr-auto">
 						<li class="nav-item">
-							<a class="nav-link pt-0 border-right pl-0" href="#">U.S</a>
+							<a
+								class="nav-link pt-0 border-right pl-0 font-weight-bold display-6"
+								href="#"
+								>U.S</a
+							>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link pt-0 border-right" href="#">World</a>
+							<a class="nav-link pt-0 border-right font-weight-bold" href="#"
+								>World</a
+							>
 						</li>
 
 						<li class="nav-item">
-							<a class="nav-link pt-0 border-right">Business</a>
+							<a class="nav-link pt-0 border-right font-weight-bold"
+								>Business</a
+							>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link pt-0 border-right">Tech &amp; Science</a>
+							<a class="nav-link pt-0 border-right font-weight-bold"
+								>Tech &amp; Science</a
+							>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link pt-0 border-right">Advertise</a>
+							<a class="nav-link pt-0 border-right font-weight-bold"
+								>Advertise</a
+							>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link pt-0 border-right">Copyright</a>
+							<a class="nav-link pt-0 border-right font-weight-bold"
+								>Copyright</a
+							>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link pt-0 border-right">Terms & Conditions</a>
+							<a class="nav-link pt-0 border-right font-weight-bold"
+								>Terms & Conditions</a
+							>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link pt-0 border-right">Culture</a>
+							<a class="nav-link pt-0 border-right font-weight-bold">Culture</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link pt-0 border-right">Newsgeek</a>
+							<a class="nav-link pt-0 border-right font-weight-bold"
+								>Newsgeek</a
+							>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link pt-0 border-right">Sports</a>
+							<a class="nav-link pt-0 border-right font-weight-bold">Sports</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link pt-0 border-right">Health</a>
+							<a class="nav-link pt-0 border-right font-weight-bold">Health</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link pt-0 border-right">The Debate</a>
+							<a class="nav-link pt-0 border-right font-weight-bold"
+								>The Debate</a
+							>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link pt-0 border-right">Vantage</a>
+							<a class="nav-link pt-0 border-right font-weight-bold">Vantage</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link pt-0">Weather</a>
+							<a class="nav-link pt-0 font-weight-bold">Weather</a>
 						</li>
-						<li class="nav-item">
-							<a class="nav-link pt-0 mr-2"
-								>Search <i class="fa fa-search" aria-hidden="true"></i
-							></a>
+						<li class="nav-item text-muted mr-1">
+							Search <i class="fa fa-search" aria-hidden="true"></i>
 						</li>
 					</ul>
 				</div>
@@ -786,18 +835,19 @@
 							</p>
 						</div>
 					</div>
+					<!-- END MORE STORIES -->
 				</div>
 				<!-- Last colunm Debate -->
 				<div class="col-sm-12 col-md-12 col-lg-4 col-three">
 					<h2 class="featured article-title"><a href="#">the debate</a></h2>
 					<div class="featured-border-line-red mb-3"></div>
-					<div class="debate-body">
-						<div class="author-profile d-flex justify-content-center mb-4">
+					<div class="debate-body text-left">
+						<div class="author-profile d-flex justify-content-start mb-4">
 							<a href=""></a
 							><img
 								src="https://d.newsweek.com/en/full/1590940/caroline-glick.webp?w=150&h=150&f=bc092017cb0794655a8d46a0be6e0932"
 								alt="woman"
-								class="rounded-circle img-responsive"
+								class="rounded-circle img-responsive d-block"
 							/>
 							<div class="debate-title text-left ml-3">
 								<a href="#"
@@ -812,7 +862,7 @@
 						<div class="versus text-center rounded-circle">VS</div>
 					</div>
 					<div class="debate-body mt-4">
-						<div class="author-profile d-flex justify-content-center mb-4">
+						<div class="author-profile d-flex justify-content-between mb-4">
 							<div class="debate-title text-left ml-3">
 								<a href="#"
 									>Israeli Sovereignty, Not Appeasement, Is the Key to Lasting
@@ -833,7 +883,7 @@
 					<h2 class="featured article-title">opinion</h2>
 					<!-- opinion body -->
 					<div class="opinion">
-						<div class="author-profile d-flex justify-content-center mb-4">
+						<div class="author-profile d-flex justify-content-start mb-4">
 							<a href=""></a
 							><img
 								src="https://d.newsweek.com/en/full/1592857/alexandra-hudson.webp?w=63&h=63&f=1b21b6b7b04dfd0f14f2f496bdfe088a"
@@ -852,7 +902,7 @@
 					<hr />
 					<!-- opinion body -->
 					<div class="opinion">
-						<div class="author-profile d-flex justify-content-center mb-4">
+						<div class="author-profile d-flex justify-content-start mb-4">
 							<a href=""></a
 							><img
 								src="https://d.newsweek.com/en/full/1593244/jacob-nagel-andrea-stricker.webp?w=63&h=63&f=238b931c061d1e3d0e68e67ac4281d74"
@@ -871,7 +921,7 @@
 					<hr />
 					<!-- opinion body -->
 					<div class="opinion">
-						<div class="author-profile d-flex justify-content-center mb-4">
+						<div class="author-profile d-flex justify-content-start mb-4">
 							<a href=""></a
 							><img
 								src="https://d.newsweek.com/en/full/1592880/em-heppler-michael-shank.webp?w=63&h=63&f=b9c3210f492b070140267d95aa0e3689"
@@ -891,7 +941,7 @@
 					<hr />
 					<!-- opinion body -->
 					<div class="opinion">
-						<div class="author-profile d-flex justify-content-center mb-4">
+						<div class="author-profile d-flex justify-content-start mb-4">
 							<a href=""></a
 							><img
 								src="https://d.newsweek.com/en/full/1593244/jacob-nagel-andrea-stricker.webp?w=63&h=63&f=238b931c061d1e3d0e68e67ac4281d74"
@@ -912,7 +962,7 @@
 					<hr />
 					<!-- opinion body -->
 					<div class="opinion">
-						<div class="author-profile d-flex justify-content-center mb-4">
+						<div class="author-profile d-flex justify-content-start mb-4">
 							<a href=""></a
 							><img
 								src="https://d.newsweek.com/en/full/1576147/jeremy-farrar.webp?w=63&h=63&f=e14f6493acfd2030982ae08e217f34fd"
@@ -930,7 +980,7 @@
 					<hr />
 					<!-- opinion body -->
 					<div class="opinion">
-						<div class="author-profile d-flex justify-content-center mb-4">
+						<div class="author-profile d-flex justify-content-start mb-4">
 							<a href=""></a
 							><img
 								src="https://d.newsweek.com/en/full/1590940/caroline-glick.webp?w=150&h=150&f=bc092017cb0794655a8d46a0be6e0932"
@@ -946,167 +996,169 @@
 							</div>
 						</div>
 					</div>
-
-					<!-- card -->
-					<div class="card mb-4">
-						<a href="#"
-							><img
-								src="https://d.newsweek.com/en/full/1579322/wheaton-college-massachusetts.jpg?w=500&h=333&f=88f8ca5b2a4cb233d52b78eebba24e7a"
-								class="card-img-top"
-								alt="home"
-						/></a>
-						<div class="card-body">
-							<h5 class="card-title">
-								<a href="#" class=""
-									>What Sets the Leading Liberal Arts Schools Apart?</a
-								>
-							</h5>
-							<p class="card-text">
-								There are a number of great Liberal Arts Schools in the USA
-								today, but what qualities do the best of them have?
-							</p>
-							<a href="#" class="btn btn-text-blue">SPONSORED INSIGHT</a>
-						</div>
-					</div>
-					<!-- End card -->
-
-					<!-- form -->
-					<form class="mx-5 newsletter-form mb-4">
-						<div class="form-content-wrapper p-4">
-							<div class="form-head d-flex">
-								<img
-									class="bg-danger img-responsive d-block align-self-baseline mr-2 my-auto"
-									src="https://g.newsweek.com/www/images/logo-n1.svg"
-									alt="logo"
-								/>
-								<h2 class="newsletter-title my-2">
-									start your day with our top 5 articles
-								</h2>
+					<div class="container">
+						<!-- card -->
+						<div class="card mb-4">
+							<a href="#"
+								><img
+									src="https://d.newsweek.com/en/full/1579322/wheaton-college-massachusetts.jpg?w=500&h=333&f=88f8ca5b2a4cb233d52b78eebba24e7a"
+									class="card-img-top"
+									alt="home"
+							/></a>
+							<div class="card-body">
+								<h5 class="card-title">
+									<a href="#" class=""
+										>What Sets the Leading Liberal Arts Schools Apart?</a
+									>
+								</h5>
+								<p class="card-text">
+									There are a number of great Liberal Arts Schools in the USA
+									today, but what qualities do the best of them have?
+								</p>
+								<a href="#" class="btn btn-text-blue">SPONSORED INSIGHT</a>
 							</div>
-							<div class="form-group">
-								<input
-									type="email"
-									class="form-control"
-									id="exampleInputEmail1"
-									placeholder="Email address"
-								/>
+						</div>
+						<!-- End card -->
+
+						<!-- form -->
+						<form class="mx-5 newsletter-form mb-4">
+							<div class="form-content-wrapper p-4">
+								<div class="form-head d-flex">
+									<img
+										class="bg-danger img-responsive d-block align-self-baseline mr-2 my-auto"
+										src="https://g.newsweek.com/www/images/logo-n1.svg"
+										alt="logo"
+									/>
+									<h2 class="newsletter-title my-2">
+										start your day with our top 5 articles
+									</h2>
+								</div>
+								<div class="form-group">
+									<input
+										type="email"
+										class="form-control"
+										id="exampleInputEmail1"
+										placeholder="Email address"
+									/>
+								</div>
+								<button
+									type="submit"
+									class="btn btn-red btn-block font-weight-bold"
+								>
+									free sign up
+									<i class="fa fa-angle-right" aria-hidden="true"></i>
+								</button>
 							</div>
-							<button
-								type="submit"
-								class="btn btn-red btn-block font-weight-bold"
-							>
-								free sign up
-								<i class="fa fa-angle-right" aria-hidden="true"></i>
-							</button>
+						</form>
+						<!-- card -->
+						<div class="card mb-4">
+							<a href="#"
+								><img
+									src="https://d.newsweek.com/en/full/1579706/tohoku-university.jpg?w=500&h=333&l=0&t=0&f=2fbb1c2062ff04bf200766f8db3d240c"
+									class="card-img-top"
+									alt="home"
+							/></a>
+							<div class="card-body">
+								<h5 class="card-title">
+									<a href="#" class=""
+										>What Sets the Leading Liberal Arts Schools Apart?</a
+									>
+								</h5>
+								<p class="card-text">
+									What Qualities Make a Leading University?
+								</p>
+								<a href="#" class="btn btn-text-blue">SPONSORED INSIGHT</a>
+							</div>
 						</div>
-					</form>
-					<!-- card -->
-					<div class="card mb-4">
-						<a href="#"
-							><img
-								src="https://d.newsweek.com/en/full/1579706/tohoku-university.jpg?w=500&h=333&l=0&t=0&f=2fbb1c2062ff04bf200766f8db3d240c"
-								class="card-img-top"
-								alt="home"
-						/></a>
-						<div class="card-body">
-							<h5 class="card-title">
-								<a href="#" class=""
-									>What Sets the Leading Liberal Arts Schools Apart?</a
-								>
-							</h5>
-							<p class="card-text">
-								What Qualities Make a Leading University?
-							</p>
-							<a href="#" class="btn btn-text-blue">SPONSORED INSIGHT</a>
+						<!-- End card -->
+						<!-- card -->
+						<div class="card mb-4">
+							<a href="#"
+								><img
+									src="https://d.newsweek.com/en/full/1573585/stu-clark-graduate-school.jpg?w=500&h=333&f=cfb77dda9301d18238ff0b6c01ac19e4"
+									class="card-img-top"
+									alt="home"
+							/></a>
+							<div class="card-body">
+								<h5 class="card-title">
+									<a href="#"
+										>What Sets the Leading Liberal Arts Schools Apart?</a
+									>
+								</h5>
+								<p class="card-text">
+									There are a number of great Liberal Arts Schools in the USA
+									today, but what qualities do the best of them have?
+								</p>
+								<a href="#" class="btn btn-text-blue">SPONSORED INSIGHT</a>
+							</div>
 						</div>
-					</div>
-					<!-- End card -->
-					<!-- card -->
-					<div class="card mb-4">
-						<a href="#"
-							><img
-								src="https://d.newsweek.com/en/full/1573585/stu-clark-graduate-school.jpg?w=500&h=333&f=cfb77dda9301d18238ff0b6c01ac19e4"
-								class="card-img-top"
-								alt="home"
-						/></a>
-						<div class="card-body">
-							<h5 class="card-title">
-								<a href="#"
-									>What Sets the Leading Liberal Arts Schools Apart?</a
-								>
-							</h5>
-							<p class="card-text">
-								There are a number of great Liberal Arts Schools in the USA
-								today, but what qualities do the best of them have?
-							</p>
-							<a href="#" class="btn btn-text-blue">SPONSORED INSIGHT</a>
+						<!-- End card -->
+						<!-- card -->
+						<div class="card mb-4">
+							<a href="#"
+								><img
+									src="https://d.newsweek.com/en/full/1588123/nw-food-medicine-sponsored.jpg?w=500&h=333&f=03bfa19e4e38b9de86f3c778fd4c3852"
+									class="card-img-top"
+									alt="home"
+							/></a>
+							<div class="card-body">
+								<h5 class="card-title">
+									<a href="#">Newsweek Special Edition: Food as Medicine</a>
+								</h5>
+								<p class="card-text">
+									Humans have been using natural remedies like spices and herbs
+									to heal common ailments for centuries. Now food science is
+									proving many of those traditions true and innovating new ways
+									to heal our bodies from the inside out. Discover the power of
+									plant-based nutrition with this Newsweek Special Edition and
+									start your journey to a healthier you.
+								</p>
+								<a href="#" class="btn btn-text-blue">SPONSORED INSIGHT</a>
+							</div>
 						</div>
-					</div>
-					<!-- End card -->
-					<!-- card -->
-					<div class="card mb-4">
-						<a href="#"
-							><img
-								src="https://d.newsweek.com/en/full/1588123/nw-food-medicine-sponsored.jpg?w=500&h=333&f=03bfa19e4e38b9de86f3c778fd4c3852"
-								class="card-img-top"
-								alt="home"
-						/></a>
-						<div class="card-body">
-							<h5 class="card-title">
-								<a href="#">Newsweek Special Edition: Food as Medicine</a>
-							</h5>
-							<p class="card-text">
-								Humans have been using natural remedies like spices and herbs to
-								heal common ailments for centuries. Now food science is proving
-								many of those traditions true and innovating new ways to heal
-								our bodies from the inside out. Discover the power of
-								plant-based nutrition with this Newsweek Special Edition and
-								start your journey to a healthier you.
-							</p>
-							<a href="#" class="btn btn-text-blue">SPONSORED INSIGHT</a>
+						<!-- End card -->
+						<!-- card -->
+						<div class="card mb-4">
+							<a href="#"
+								><img
+									src="https://d.newsweek.com/en/full/1587568/infection-prevention-products-banner.jpg?w=500&h=333&f=c96d696a017681c45d2f464a2ae0e23d"
+									class="card-img-top"
+									alt="home"
+							/></a>
+							<div class="card-body">
+								<h5 class="card-title">
+									<a href="#" class="">Best Infection Prevention Products</a>
+								</h5>
+								<p class="card-text">
+									During the coronavirus outbreak, health care is more important
+									than ever. In Newsweek's first Best Health Care series, we
+									highlight the best infection prevention products.
+								</p>
+								<a href="#" class="btn btn-text-blue">RANKINGS</a>
+							</div>
 						</div>
-					</div>
-					<!-- End card -->
-					<!-- card -->
-					<div class="card mb-4">
-						<a href="#"
-							><img
-								src="https://d.newsweek.com/en/full/1587568/infection-prevention-products-banner.jpg?w=500&h=333&f=c96d696a017681c45d2f464a2ae0e23d"
-								class="card-img-top"
-								alt="home"
-						/></a>
-						<div class="card-body">
-							<h5 class="card-title">
-								<a href="#" class="">Best Infection Prevention Products</a>
-							</h5>
-							<p class="card-text">
-								During the coronavirus outbreak, health care is more important
-								than ever. In Newsweek's first Best Health Care series, we
-								highlight the best infection prevention products.
-							</p>
-							<a href="#" class="btn btn-text-blue">RANKINGS</a>
-						</div>
-					</div>
-					<!-- End card -->
-					<!-- card -->
-					<div class="card mb-4">
-						<a href="#"
-							><img
-								src="https://d.newsweek.com/en/full/1592802/addiction-treatment-centers-2020.jpg?w=500&h=333&l=43&t=50&f=592690018959dfb67278ecc6236ba576"
-								class="card-img-top"
-								alt="home"
-						/></a>
-						<div class="card-body">
-							<h5 class="card-title">
-								<a href="#" class="">Best Addiction Treatment Centers</a>
-							</h5>
-							<p class="card-text">
-								Newsweek and Statista are partnering to establish a ranking of
-								Best Addiction Treatment Centers in the United States. If you
-								work in this field, this survey is for you.
-							</p>
+						<!-- End card -->
+						<!-- card -->
+						<div class="card mb-4">
+							<a href="#"
+								><img
+									src="https://d.newsweek.com/en/full/1592802/addiction-treatment-centers-2020.jpg?w=500&h=333&l=43&t=50&f=592690018959dfb67278ecc6236ba576"
+									class="card-img-top"
+									alt="home"
+							/></a>
+							<div class="card-body">
+								<h5 class="card-title">
+									<a href="#" class="">Best Addiction Treatment Centers</a>
+								</h5>
+								<p class="card-text">
+									Newsweek and Statista are partnering to establish a ranking of
+									Best Addiction Treatment Centers in the United States. If you
+									work in this field, this survey is for you.
+								</p>
+							</div>
 						</div>
 					</div>
+
 					<!-- End card -->
 				</div>
 			</div>
@@ -2206,7 +2258,7 @@
 							>subscribe</a
 						>
 					</h2>
-					<div class="d-flex justify-content-start bg-dark-gray py-5 px-3">
+					<div class="d-flex justify-content-start bg-dark-gray py-4 px-3">
 						<div class="media">
 							<img
 								src="https://d.newsweek.com/en/full/1589808/may-22-2020-cover.jpg?w=170&q=95&f=96101d0d430bef83aee5a95169c9b655"
@@ -2247,15 +2299,16 @@
 							>newsletter</a
 						>
 					</h2>
+
 					<div class="d-flex justify-content-start">
 						<img
 							src="https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5"
-							class="img-responsive newsletter-img w-50 h-100 d-block"
+							class="img-responsive newsletter-img"
 							alt="cover"
 						/>
 						<div class="media">
 							<div
-								class="media-body align-self-baseline ml-2 my-auto py-5 px-3"
+								class="media-body align-self-center ml-2 my-auto py-4 px-3 py-md-2"
 							>
 								<h5 class="mt-0">The Starting 5</h5>
 								<p class="text-dark">
@@ -2271,22 +2324,15 @@
 									/>
 								</div>
 								<div class="form-group font-weight-bold">
-									<input
+									<button
 										type="submit"
-										class="form-control"
-										id="exampleInputEmail1"
-										placeholder="Email address"
-										value="free sign up"
-									/>
-								</div>
-								<button
-									type="submit"
-									class="btn btn-red font-weight-bold rounded d-block"
-								>
-									free sign up
+										class="btn btn-red font-weight-bold rounded d-block w-100"
+									>
+										free sign up
 
-									<i class="fa fa-angle-right" aria-hidden="true"></i>
-								</button>
+										<i class="fa fa-angle-right" aria-hidden="true"></i>
+									</button>
+								</div>
 							</div>
 						</div>
 					</div>

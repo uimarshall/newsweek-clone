@@ -6,6 +6,7 @@ body {
 	background-color: white;
 	width: 98%;
 }
+
 a {
 	text-decoration: none;
 }
@@ -14,12 +15,20 @@ a {
 
 .header-wrapper {
 	background-color: #f72210 !important;
+	height: 100px;
+}
+.header-wrapper-small {
+	background-color: #f72210 !important;
 }
 .header-wrapper h1 {
-	/* padding: 15px; */
 	position: absolute;
-	top: 2px;
-	left: 450px;
+	top: -12px;
+	left: 35%;
+}
+.header-wrapper a:hover,
+.header-wrapper-small a:hover {
+	text-decoration: none;
+	color: #fff;
 }
 .header-text {
 	color: white;
@@ -30,10 +39,19 @@ a {
 	text-decoration: none;
 	font-family: "Bree Serif", serif;
 }
+.header-text-small {
+	color: white;
+	text-decoration: none;
+	font-family: "Bree Serif", serif;
+}
 .date,
 .weather {
 	font: 16px/34px "Roboto Condensed", sans-serif;
 	color: white;
+}
+.weather-img {
+	width: 24px;
+	height: 24px;
 }
 .login {
 	font: bold 14px/14px "Roboto Condensed", sans-serif;
@@ -48,14 +66,22 @@ a {
 	text-transform: uppercase;
 	color: #333;
 }
-.navbar {
-	background-color: white;
-	border-bottom-color: #f4f5f6;
-	padding-top: 15px;
-	padding-bottom: 15px;
-	border-bottom-width: 2px;
-	border-bottom-style: solid;
+.main-nav::before {
+	position: absolute;
+	top: 0;
+	right: 0;
+	content: "";
+	display: block;
+	width: 55px;
+	background-color: #f72210;
+	border-left: 12px solid white;
+	border-top: 13px solid #f72210;
 }
+
+.main-nav .nav-link {
+	color: black !important;
+}
+
 .article-title,
 .article-title a {
 	font: bold 16px/16px "Roboto Condensed", sans-serif;
@@ -372,6 +398,13 @@ a {
 	.newsletter-img {
 		width: 48%;
 		max-width: 191px;
+		height: 285px;
+	}
+	.btn-red {
+		font-size: 15px;
+	}
+	.container {
+		width: 50% !important;
 	}
 }
 
@@ -386,6 +419,14 @@ a {
 	}
 	.in-the-magazine-cat:not(.mag-other-rows) {
 		margin-top: 0.7rem;
+	}
+	.newsletter-img {
+		width: 48%;
+		max-width: 191px;
+		height: 285px;
+	}
+	.container {
+		width: 100% !important;
 	}
 }
 
