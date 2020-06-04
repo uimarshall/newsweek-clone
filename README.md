@@ -16,7 +16,7 @@ This repository is for the cloning of newsweek webpage
 ## Live Demo
 
 ​
-[Live Demo Link](https://rawcdn.githack.com/uimarshall/apple-webpage-clone/bea229a450ab905b5447a26a714a9bf91948663c/index.html)
+[Live Demo Link](https://rawcdn.githack.com/uimarshall/newsweek-clone/b8df4039d1180cf079e2807150acc12c166d5d18/index.html)
 ​
 ​
 
